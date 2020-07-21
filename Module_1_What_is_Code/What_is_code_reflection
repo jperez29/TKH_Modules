@@ -1,1 +1,14 @@
-Whenever you type a letter on a keyboard, a computer interprets this signal from the keyboard as a code, since every key produces a code. A computer then follows a series of steps: it finds and recognizes a letter as a font from its memory. Since letters are made up of lines and circles, a computer also needs to recognize the corresponding combinations that create specific letters. The memory of a computer that manages the screen then holds a little box of pixels with the lines and circles of the letter that was pressed on the keyboard.  
+1) Whenever you type a letter on a keyboard, a computer interprets this signal from the keyboard as a code, 
+since every key produces a code. A computer then follows a series of steps: it finds and recognizes a 
+letter as a font from its memory. Since letters are made up of lines and circles, a computer also needs
+to recognize the corresponding combinations that create specific letters. The memory of a computer that 
+manages the screen then holds a little box of pixels with the lines and circles of the letter that was 
+pressed on the keyboard.  
+
+2) Computers use input and output to create experiences by taking a user’s input, processing this information, 
+and converting it to computer language in order to have a response from the computer to the user. For example, 
+when you speak to Siri, the input is the words spoken to Siri, which Siri cannot understand. Siri breaks down 
+your words to text, which then recognizes them as symbols and compares those symbols to the symbols in its database. 
+Another example is scanning products at a grocery store. The input is the code on the product, and the computer 
+compares the code to something it understands to get an output to the user, the output being the price of the item 
+of purchase.
