@@ -1,0 +1,12 @@
+1) Git is a version control system that allows you to track changes of files where your code
+lives, whereas github is a public platform where you can host Git repositories. Another way
+to think about it is Git works on your local computer while Github works as an online platform to save and 
+store your code.
+
+2) We can use the terminal to talk to the computer directly and this is more efficient for creating 
+file structures for projects than using GUIs.
+
+3) Three benefits of version control are it allows multiple people to work on the same projects, it tracks 
+changes made to your code over time, and it allows you to go back to prior versions if the recent versions 
+don't work.
+
