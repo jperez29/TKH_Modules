@@ -3,7 +3,7 @@
 --second-color: #f5f5f5;
 --third-color: #0c080c;
 --fourth-color:rgba(86, 58, 241,.3);
---font: 'GothicA1';
+--font: 'Roboto';
 --shadow: 10px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -35,6 +35,57 @@ body {
     color:var(--third-color);
     box-shadow:var(--shadow);
 }
+
+.social-menu ul{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    padding:0;
+    margin: 0;
+    transform: translate(-20%, -80%); /* to move the icons around*/
+    display: flex;    
+}
+.social-menu ul li{
+    list-style: none;
+    margin:0 15px;
+}
+.social-menu ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover {
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(176, 245, 245);
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #0077B5;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #000;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #ea4335;
+}
+
 
 /*styling our navigation menu*/
 .title{
@@ -71,7 +122,7 @@ a:hover{
     display: flex; 
     width: 80vw; 
     padding: .5rem; 
-    margin: .5rem; 
+    margin: .2rem; 
     border-radius: 6px; 
     background-color:var (--second-color); 
     box-shadow: var (--shadow);
@@ -117,7 +168,7 @@ a:hover{
 /*career*/
 .career{
     display: flex; 
-    margin: .5rem; 
+    margin: .01rem; 
     width: calc (80vw + 2rem);
 }
 .goals{
