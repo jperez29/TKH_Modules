@@ -321,7 +321,7 @@ input[type=submit]:hover{
 .education{
     width: 80vw;
     margin: .5rem; 
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     background-color: var (--second-color); 
     box-shadow: var (--shadow);
