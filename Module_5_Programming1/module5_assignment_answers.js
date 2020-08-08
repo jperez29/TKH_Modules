@@ -1,4 +1,4 @@
-//first project
+//Assignment #1
 let weekly_income = parseInt(prompt("Weekly Income:"))
 let food_cost = parseInt(prompt("Food Cost:"))
 let housing_cost = parseInt(prompt("Housing Cost:"))
@@ -17,5 +17,34 @@ let X = parseInt(weekly_savings - money_left)
 if (money_left > weekly_savings ){
     console.log("Awesome, you're on track!")
 }
-else {console.log("Sorry, but you are not on track this time . You need to save " + "$" + X + " more a week")
+else {console.log("Sorry, but you are not on track this time. You need to save " + "$" + X + " more a week")
+}
+
+//Assignment #2
+Let grade;
+switch(true){
+    case grade > 95:
+        console.log("+A");
+        break;
+    case 88 < grade <= 90:
+        console.log("A");
+        break;
+    case 84 < grade <= 88:
+        console.log("B+")
+        break;
+    case 76 < grade <= 84:
+        console.log("C+")
+        break;
+    case 70 < grade <= 76:
+        console.log("C")
+        break;
+    case 67 < grade <= 70:
+        console.log("D+")
+        break;
+    case 64 < grade <= 67:
+        console.log("D")
+        break;
+    case 64 < grade:
+        console.log("F")
+        break;
 }
