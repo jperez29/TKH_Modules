@@ -1,34 +1,34 @@
 //Assignment #2
-Let grade;
-switch(true){
-    case grade > 95:
+Let grade=90;
+switch(grade){
+    case ( > 95):
         console.log("+A");
         break;
-    case 88 < grade <= 90:
+    case (>88   <=90):
         console.log("A");
         break;
-    case 84 < grade <= 88:
-        console.log("B+")
+    case 84 <  <= 88:
+        console.log("B+");
+        break;}
+    case 76 <  <= 84:
+        console.log("C+");
         break;
-    case 76 < grade <= 84:
-        console.log("C+")
+    case 70 <  <= 76:
+        console.log("C");
         break;
-    case 70 < grade <= 76:
-        console.log("C")
+    case 67 <  <= 70:
+        console.log("D+");
         break;
-    case 67 < grade <= 70:
-        console.log("D+")
+    case 64 <  <= 67:
+        console.log("D");
         break;
-    case 64 < grade <= 67:
-        console.log("D")
-        break;
-    case 64 < grade:
-        console.log("F")
+    case 64 < :
+        console.log("F");
         break;
 }
 
 //assignment #2 as else if statement
-let grade;
+let grade=parseInt(prompt("Grade:"));
 if (grade > 95){
     console.log("+A");
 } else if (grade>88 && grade<=90){
@@ -45,4 +45,33 @@ if (grade > 95){
     console.log("D");
 } else if (grade<=64){
     console.log("F");
+}
+
+//Assignment #2
+Let grade=90;
+switch(grade){
+    case (grade > 95):
+        console.log("+A");
+        break;
+    case 88 < grade <= 90:
+        console.log("A");
+        break;
+    case 84 < grade <= 88:
+        console.log("B+");
+        break;
+    case 76 < grade <= 84:
+        console.log("C+");
+        break;
+    case 70 < grade <= 76:
+        console.log("C");
+        break;
+    case 67 < grade <= 70:
+        console.log("D+");
+        break;
+    case 64 < grade <= 67:
+        console.log("D");
+        break;
+    case 64 < grade:
+        console.log("F");
+        break;
 }
