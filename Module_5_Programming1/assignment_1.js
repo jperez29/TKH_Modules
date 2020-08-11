@@ -5,7 +5,6 @@ let transportation_cost     = parseInt(prompt("Transportation Cost:"))
 let other_cost              = parseInt(prompt("Other Cost:"))
 let expected_yearly_savings = parseInt(prompt("How much do you want to save in a year:"))
 
-//savings here represents how much user needs to save per week to achieve the expected yearly savings
 weekly_savings = expected_yearly_savings/52
 
 total_weekly_cost = food_cost + housing_cost + transportation_cost + other_cost
