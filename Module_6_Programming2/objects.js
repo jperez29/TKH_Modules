@@ -16,14 +16,11 @@ let car={
         this.vehicleType = value.toUpperCase();
         console.log(this.vehicleType);
     },
-
 }
 
 car.type = "sports car";
 console.log(car.type);
 car.favoriteCar();
-
-
 
 let team = {
     sport: "soccer",
