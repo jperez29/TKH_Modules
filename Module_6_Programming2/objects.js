@@ -75,4 +75,4 @@ let animal = {
 
 animal.nameOfAnimal = "Bella";
 console.log(animal.nameofAnimal);
-animal.aboutAnimal();
+animal.aboutAnimal(); 
