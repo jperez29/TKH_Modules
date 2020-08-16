@@ -35,7 +35,7 @@ ul li.checked {
     color: white;
     text-decoration: line-through;
 }
-ul li.checked:before {
+ul li.checked::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -58,7 +58,7 @@ ul li.checked:before {
     color: white;
 }
 .header{
-    background-color: rgb(222, 236, 141);
+    background-color: rgb(165, 229, 149);
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -98,7 +98,7 @@ input {
     font-style: italic;
     font-size: xx-large;
     font-family: "Times New Roman";
-    margin: 40 px 35%;
+    margin: 40px 35%;
     background-color: darkblue;
     color: white;
 }
@@ -106,3 +106,8 @@ input {
     background-color: blue;
     color:white;
 } 
+
+
+
+
+
