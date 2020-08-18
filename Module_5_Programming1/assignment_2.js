@@ -1,3 +1,5 @@
+//https://codepen.io/jperez29/pen/WNwwxqw
+
 let grade=parseInt(prompt("Grade:"));
 switch(true){
     case (grade > 95):

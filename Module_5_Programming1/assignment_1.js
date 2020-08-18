@@ -1,3 +1,5 @@
+//https://codepen.io/jperez29/pen/vYGKpyP
+
 let weekly_income           = parseInt(prompt("Weekly Income:"))
 let food_cost               = parseInt(prompt("Food Cost:"))
 let housing_cost            = parseInt(prompt("Housing Cost:"))
